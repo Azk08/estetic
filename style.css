@@ -1,0 +1,82 @@
+/* Add this to your style.css file */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(Foto/mount-fuji-2297961_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    padding: 10px;
+    display: flex;
+    background-color: rgba(0, 0, 0, .2);
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 50px; /* Adjust the size as needed */
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.done {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px;
+    background-color: rgba(0, 0, 0, .2);
+    margin: 20px;
+    border-radius: 9px;
+    flex-wrap: wrap;
+}
+
+img.pp{
+    width: 150px;
+    border-radius: 90%;
+}
+
+.teks{
+    width: 400px;
+    text-align: justify;
+}
+
+.nav :hover{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    transition: 0.3s;
+}
+
+.footer{
+    padding: 1px;
+    width: auto;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+img.icon{
+    width: 30px;
+    margin: 10px;
+}
+
+@media screen and (max-width:780px) {
+    .nav{
+        padding:10px;
+    }
+    .done{
+        padding: 15px;
+    }
+    .teks{
+        padding: 1px;
+    }
+}
